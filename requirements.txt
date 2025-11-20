@@ -1,0 +1,39 @@
+# Web scraping
+requests
+beautifulsoup4
+lxml
+urllib3
+
+# Data handling
+pandas
+numpy
+
+# Progress bar
+tqdm
+sentence_transformers
+scikit-learn
+# Text processing & regex
+regex
+
+# HuggingFace Transformers & summarization
+torch
+transformers
+
+# FAISS (for vector search, optional for in-memory small dataset)
+faiss-cpu  # if you want GPU: faiss-gpu
+
+# CLI parsing
+argparse
+
+sentence-transformers 
+faiss-cpu 
+llama-cpp-python 
+
+langchain-community
+langchain
+langchain-groq
+textblob
+
+langchain_huggingface
+
+

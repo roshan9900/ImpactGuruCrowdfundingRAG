@@ -1,0 +1,6 @@
+docs_json/
+faiss_index/
+models/
+
+venv/
+/.env
