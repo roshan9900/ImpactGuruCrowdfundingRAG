@@ -19,29 +19,28 @@ Key features:
 ## 📂 Project Structure
 
 ```
-
 Impactguru/
-│
-├─ docs_json/                       # JSON documents for each campaign
-├─ faiss_index/                     # FAISS vectorstore for embeddings
-├─ models/                          # Local open-source LLMs
+├─ docs_json/                    # JSON documents for each campaign
+├─ faiss_index/                  # FAISS vectorstore for embeddings
+├─ models/                       # Local open-source LLMs
 │   ├─ llama-pro-8b-instruct.Q4_K_S.gguf
 │   └─ Mistral-7B-Instruct-v0.3.Q4_K_S.gguf
-├─ src/
-│   ├─ infer.py                     # Interactive CLI for hybrid queries
-│   ├─ local_rag.py                 # Local RAG implementation using downloaded models
-│   ├─ rag.py                        # Main RAG system script
-│   ├─ raghybrid.py                 # Hybrid RAG functions + helpers
-│   ├─ scrapper.py                  # Web scraping script for crowdfunding campaigns
-│   └─ summariser.py                # Generates numeric/text/overall summaries
-├─ ketto_campaigns.csv               # Raw scraped campaign dataset
-├─ ketto_campaigns_enriched.csv     # Processed & enriched dataset
-├─ numeric_summary.csv               # Numeric statistics
-├─ text_summary.txt                  # Text story summaries
-├─ overall_summary.txt               # Overall metrics
-├─ streamlit.py                      # Streamlit interface for hybrid queries
-├─ requirements.txt                  # Python dependencies
+├─ src/                          # Source scripts
+│   ├─ infer.py                  # Interactive CLI for hybrid queries
+│   ├─ local_rag.py              # Local RAG implementation using downloaded models
+│   ├─ rag.py                    # Main RAG system script
+│   ├─ raghybrid.py              # Hybrid RAG functions + helpers
+│   ├─ scrapper.py               # Web scraping script for crowdfunding campaigns
+│   └─ summariser.py             # Generates numeric/text/overall summaries
+├─ ketto_campaigns.csv            # Raw scraped campaign dataset
+├─ ketto_campaigns_enriched.csv  # Processed & enriched dataset
+├─ numeric_summary.csv            # Numeric statistics
+├─ text_summary.txt               # Text story summaries
+├─ overall_summary.txt            # Overall metrics
+├─ streamlit.py                   # Streamlit interface for hybrid queries
+├─ requirements.txt               # Python dependencies
 └─ README.md
+
 
 ````
 
