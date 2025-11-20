@@ -157,26 +157,7 @@ streamlit run src/streamlit.py
 
 ---
 
-## 5️⃣ Assessment & Hiring Highlights
-
-* Demonstrates **full data engineering pipeline**: scraping → cleaning → enrichment → summaries.
-* Implements **hybrid RAG system** combining numeric analytics and semantic search.
-* Shows **practical use of embeddings and vectorstores (FAISS)**.
-* Integrates **local & cloud LLMs** for flexibility & speed.
-* Produces **interactive tools** (CLI + Streamlit) for end-users.
-* Efficiently handles **large datasets with chunking**.
-
-**This project demonstrates advanced skills in:**
-
-* Python programming
-* Data preprocessing & analytics
-* LLMs & RAG architecture
-* Semantic search and embeddings
-* Building interactive user interfaces
-
----
-
-## 6️⃣ References
+## 5️⃣ References
 
 * [LangChain](https://www.langchain.com/)
 * [FAISS](https://github.com/facebookresearch/faiss)
@@ -187,10 +168,5 @@ streamlit run src/streamlit.py
 
 ---
 
-## 7️⃣ Notes
-
-* Rebuild FAISS vectorstore after adding new campaigns.
-* Groq LLM recommended for fast interactive querying; local models are for offline or experimentation.
-* Streamlit interface enhances usability for non-technical users.
 
 ```
