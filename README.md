@@ -19,6 +19,8 @@ Key features:
 ## 📂 Project Structure
 
 ```
+<img width="1896" height="797" alt="image" src="https://github.com/user-attachments/assets/d89df937-5346-4dde-94d4-4aefda76d5ce" />
+
 Impactguru/
 ├─ docs_json/                    # JSON documents for each campaign
 ├─ faiss_index/                  # FAISS vectorstore for embeddings
