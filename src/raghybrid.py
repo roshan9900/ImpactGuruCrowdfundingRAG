@@ -27,7 +27,7 @@ TEXT_SUMMARY_FILE = "text_summary.txt"
 OVERALL_SUMMARY_FILE = "overall_summary.txt"
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_MODEL = "openai/gpt-oss-120b"
+LLM_MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
 
 NUMERIC_COLUMNS = ["Raised", "Goal", "Supporters", "Days Left", "Avg Donation"]
 

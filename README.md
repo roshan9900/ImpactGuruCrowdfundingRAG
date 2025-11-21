@@ -166,6 +166,32 @@ streamlit run src/streamlit.py
 * [LLaMA-pro 8B](https://huggingface.co/)
 * [Ketto](https://www.ketto.org)
 
+
+# Key Summary
+## 📌 Model Comparison (Local + Groq Hosted)
+
+| Model Name | Source | Type | Speed | Ideal For | Notes |
+|------------|--------|-------|--------|------------|--------|
+| **Mistral-7B-Instruct v0.3** | Local | Open-Source | Medium | Local RAG, CPU/GPU | Apache-2.0 license, strong quality. |
+| **Phi-3 Mini 4K Instruct (3.8B)** | Local | Open-Source | Fast | Lightweight RAG, CPU-friendly | MIT license, very low memory usage. |
+| **meta-llama/llama-4-maverick-17b-128e-instruct** | Groq | Open-Weight | Ultra Fast | High-quality RAG | Excellent reasoning, <1s latency on Groq. |
+| **qwen/qwen3-32b-instruct** | Groq | Open-Weight | Ultra Fast | Deep insights, multilingual RAG | Very strong performance across tasks. |
+| **llama-3.1-8b-instant** | Groq | Open-Weight | Ultra Fast | General RAG | Good balance of speed + quality. |
+| **llama-3.3-70b-versatile** | Groq | Open-Weight | Fast | Complex reasoning | Highest accuracy among LLaMA family. |
+| **moonshotai/kimi-k2-instruct** | Groq | Open-Weight | Fast | General chat + RAG | Good multilingual support. |
+| **openai/gpt-oss-20b** | Groq | Open-Weight | Fast | RAG + reasoning | Open-weight variant, strong accuracy. |
+| **openai/gpt-oss-120b** | Groq | Open-Weight | Medium | Long-context reasoning | High capability but slower. |
+                      
+
+
+Local open-source models (Mistral-7B and Phi-3 Mini) provide full control and privacy,  
+but were slow on CPU (≈3–5 minutes per query).  
+
+To achieve real-time RAG performance, I switched to Groq-hosted open-weight models  
+(LLaMA-4 Maverick 17B and Qwen3-32B), which provide sub-second latency while  
+remaining fully within open-source/open-weight constraints.
+
+
 ---
 
 
